@@ -62,7 +62,7 @@ def display_patient2():
     if data_pasien == []:
         print('Tidak ada data')
         display_patient()
-    else: 
+    elif data_pasien != []: 
         ID_masukan = input('Masukkan ID: ')
         tidak_ada = 0
         while True:
