@@ -107,7 +107,8 @@ def display_patient3():
 
 # ======== Function untuk menu 2 =========
 def add_patient():
-    print('''****** Tambah Data Pasien ******
+    print('''
+    ****** Tambah Data Pasien ******
 
     1. Tambah Data Pasien
     2. Kembali ke Menu Utama
