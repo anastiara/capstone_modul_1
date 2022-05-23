@@ -280,10 +280,10 @@ def app_dataPasien():
             display_patient()
         elif choiceMenu == 2:
             add_patient()
-        elif choiceMenu == 4:
-            hapus_patient()
         elif choiceMenu == 3:
             change_patient()
+        elif choiceMenu == 4:
+            hapus_patient()
         elif choiceMenu == 5:
             print('Terima kasih telah menggunakan Aplikasi PasienKu!')
             quit()
