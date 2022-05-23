@@ -90,7 +90,7 @@ def display_patient3():
         print('Tidak ada data')
         display_patient()
     elif data_pasien != []:
-        status_masukan = input('Masukkan status yang ingin dicari [rawat inap/rawat jalan] :  ')
+        status_masukan = input('Masukkan status yang ingin dicari [rawat inap/rawat jalan] :')
         tidak_ada = 0
         count = 0
         print('{:<9} | {:<16} | {:<16} | {:<16} | {:<17}'.format('ID','Nama','Tanggal Lahir','Jenis Kelamin','Status'))
