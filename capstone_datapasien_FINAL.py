@@ -284,6 +284,7 @@ def app_dataPasien():
         elif choiceMenu == 3:
             change_patient()
         elif choiceMenu == 5:
+            print('Terima kasih telah menggunakan Aplikasi PasienKu!')
             quit()
         else:
             print('Pilihan yang anda masukkan salah')
