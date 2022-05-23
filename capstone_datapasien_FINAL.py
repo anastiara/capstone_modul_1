@@ -26,6 +26,7 @@ data_pasien = [{
                     'jenisKelamin':'P',
                     'status':'Rawat Jalan'}
                 ]
+# data_pasien = []
 
 # ========= Function untuk menu 1 ==============
 def display_patient():
